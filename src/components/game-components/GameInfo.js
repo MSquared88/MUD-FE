@@ -11,7 +11,7 @@ import { GameContext } from '../../contexts/GameContext'
 export default function GameInfo() {
 
     const [chatMsg, setChatMsg] = useState({msg: ''});
-    const { roomInfo, gameOutput, chat } = useContext(GameContext)
+    const { roomInfo, gameOutput } = useContext(GameContext)
 
     const handleChanges = e => {
         setChatMsg({...chatMsg, [e.target.name]: e.target.value});
