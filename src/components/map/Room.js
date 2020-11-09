@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import styled from "styled-components"
-import { GameContext } from "../../contexts/GameContext"
+import { GameContext } from "../../contexts/game/GameContext"
 import knight_idle from "../../img/sprites/knight/Idle (1).png"
 
 const Tile = styled.div`

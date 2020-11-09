@@ -4,7 +4,7 @@ import React, { useContext } from 'react'
 import * as Widget from '../StyledWidgets'
 
 //context
-import { GameContext } from '../../contexts/GameContext'
+import { GameContext } from '../../contexts/game/GameContext'
 
 import { Howl } from 'howler';
 

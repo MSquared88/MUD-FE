@@ -5,7 +5,7 @@ import { Howl } from 'howler';
 import footStep from '../../sounds/footstep.wav'
 
 // context
-import { GameContext } from "../../contexts/GameContext";
+import { GameContext } from "../../contexts/game/GameContext";
 
 const Movement = () => {
   const sound = new Howl({

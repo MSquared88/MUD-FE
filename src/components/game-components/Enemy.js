@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 // context
-import { GameContext } from "../../contexts/GameContext";
+import { GameContext } from "../../contexts/game/GameContext";
 
 import { EnemyContainer, EnemyTitle, EnemyP, EnemyImg } from "../StyledWidgets";
 

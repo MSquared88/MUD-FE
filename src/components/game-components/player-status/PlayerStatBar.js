@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import styled from 'styled-components'
 
 //context
-import { GameContext } from '../../../contexts/GameContext'
+import { GameContext } from '../../../contexts/game/GameContext'
 
 //components
 import ProgressBar from './ProgressBar'

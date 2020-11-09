@@ -4,27 +4,21 @@ import './App.css';
 import AppRouter from './components/AppRouter';
 
 //context
-// import GameProvider from './contexts/game-context/GameProvider'
-// import PlayerProvider from './contexts/player-context/PlayerProvider'
+import LoginProvider from './contexts/Login/LoginProvider';
 
 //components
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
-  return (
-
-    <Router>
-     
-      {/* <GameProvider>
-        <PlayerProvider>    */}
-          <div className="App">
-            <AppRouter/>
-          </div>
-        {/* </PlayerProvider>
-      </GameProvider> */}
-    </Router>
-
-  );
+    return (
+        <Router>
+            <div cla ssName="App">
+                <LoginProvider>
+                    <AppRouter />
+                </LoginProvider>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
